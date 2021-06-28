@@ -9,6 +9,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.1]
 ### Uncategorized
 - Update package.json
+- Update publish-release.yml
+- 0.0.1
+- Update package.json
+- Update package.json
+- 0.0.1
+- Update publish-release.yml
+- Update package.json
+- 0.0.1
+- Update package.json
+- Update publish-release.yml
+- Update publish-release.yml
+- Update publish-release.yml
+- Update create-release-pr.yml
+- initial commit
+- Update package.json
 - Update package.json
 - 0.0.1
 - Update publish-release.yml
