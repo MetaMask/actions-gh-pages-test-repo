@@ -6,5 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.1]
+### Uncategorized
+- Update package.json
+- Update publish-release.yml
+- Update publish-release.yml
+- Update publish-release.yml
+- Update create-release-pr.yml
+- initial commit
 
-[Unreleased]: https://github.com/MetaMask/actions-gh-pages-test-repo
+[Unreleased]: https://github.com/MetaMask/actions-gh-pages-test-repo/compare/v0.0.1...HEAD
+[0.0.1]: https://github.com/MetaMask/actions-gh-pages-test-repo/releases/tag/v0.0.1
