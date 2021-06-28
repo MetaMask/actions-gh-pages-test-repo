@@ -1,11 +1,12 @@
 {
   "name": "@metamask/module-template",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "The MetaMask Node module template.",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
+  "homepage": "https://metamask.github.io/actions-gh-pages-test-repo/",
   "repository": {
     "type": "git",
     "url": "https://github.com/MetaMask/monorepo-actions-test.git"
