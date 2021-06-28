@@ -498,12 +498,12 @@
     chalk "^4.0.0"
 
 "@metamask/auto-changelog@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@metamask/auto-changelog/-/auto-changelog-2.2.0.tgz#ccc5f8d2f056793e9736445c0444596d4fcd6ffd"
-  integrity sha512-MZiEAx5QOrCInjBn9Ao/j00qyAivcqK7dEuDD+g+yabCNPFFvNq8U8i53h2Vb4zdj5NzKHIRwYNShOoQxt9BmA==
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@metamask/auto-changelog/-/auto-changelog-2.4.0.tgz#d249034a5010060e4db2addfc27863787fe4546c"
+  integrity sha512-6kIeKT4vy18dKUQEIsfIwVGBHDcLO3jBZB0klRDD+CayAqjh3Rcpi/AXr6NPI+c0rF802vAbqMX+/KFaU3scVg==
   dependencies:
-    cross-spawn "^7.0.3"
     diff "^5.0.0"
+    execa "^5.1.1"
     semver "^7.3.5"
     yargs "^17.0.1"
 
@@ -2661,7 +2661,7 @@ execa@^4.0.0:
     signal-exit "^3.0.2"
     strip-final-newline "^2.0.0"
 
-execa@^5.0.0:
+execa@^5.0.0, execa@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/execa/-/execa-5.1.1.tgz#f80ad9cbf4298f7bd1d4c9555c21e93741c411dd"
   integrity sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==
