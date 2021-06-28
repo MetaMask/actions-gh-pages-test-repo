@@ -74,5 +74,5 @@ node_modules/
 .pnp.*
 
 
-public/bundle.js
+public/
 

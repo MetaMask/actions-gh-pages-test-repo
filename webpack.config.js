@@ -1,5 +1,6 @@
 const path = require('path');
 const NodePolyfillPlugin = require('node-polyfill-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const DIST = path.resolve(__dirname, 'public');
 
@@ -18,6 +19,7 @@ module.exports = {
     writeToDisk: true,
   },
   plugins: [
+    new HtmlWebpackPlugin(),
     new NodePolyfillPlugin({
       excludeAliases: ['stream', 'buffer'],
     }),
@@ -34,7 +36,6 @@ module.exports = {
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
     fallback: {
-      stream: require.resolve('stream-browserify'),
       // eslint-disable-next-line node/no-extraneous-require
       buffer: require.resolve('buffer-browserify'),
     },
