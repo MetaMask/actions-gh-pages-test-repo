@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: ${{ steps.nvm.outputs.NODE_VERSION }}
-      - uses: MetaMask/action-publish-gh-pages@v0.0.4
+      - uses: MetaMask/action-publish-gh-pages@v0.0.5
         with: 
           directory: public
         env:
