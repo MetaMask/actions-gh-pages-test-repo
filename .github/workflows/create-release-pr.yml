@@ -45,4 +45,4 @@ jobs:
         with:
           release-type: ${{ github.event.inputs.release-type }}
           release-version: ${{ github.event.inputs.release-version }}
-          created-pr-status: ${{ github.event.inputs.create-draft-pr }}
+          created-pr-status: ${{ github.event.inputs.created-pr-status }}
