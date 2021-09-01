@@ -14,8 +14,8 @@ on:
         description: 'A specific version to bump to. Mutually exclusive with "release-type".'
         required: false
       create-draft-pr:
-        default: 'true'
-        description: 'The status of the pull request when created. Allowed options are "true" and "false"'
+        default: 'draft'
+        description: 'The status of the pull request when created. Allowed options are "draft" and "open"'
         required: true
 
 jobs:
