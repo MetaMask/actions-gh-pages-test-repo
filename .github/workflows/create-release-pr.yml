@@ -13,6 +13,10 @@ on:
       release-version:
         description: 'A specific version to bump to. Mutually exclusive with "release-type".'
         required: false
+      create-draft-pr:
+        default: 'true'
+        description: 'The status of the pull request when created. Allowed options are "true" and "false"'
+        required: true
 
 jobs:
   create-release-pr:
