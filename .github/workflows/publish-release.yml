@@ -32,7 +32,7 @@ jobs:
       - uses: MetaMask/action-publish-gh-pages@added-version
         with: 
           source-directory: public
-          destination-directory:  release/${{ steps.version.outputs.NEW_VERSION }}
+          destination-directory:  ${{ steps.version.outputs.NEW_VERSION }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
            
