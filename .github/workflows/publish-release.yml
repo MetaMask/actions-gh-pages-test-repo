@@ -24,9 +24,15 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: yarn --frozen-lockfile
+      - name: Get release version
+        id: version
+        run: |
+          PREFIX='release/'
+          echo ::set-output name=NEW_VERSION::${GITHUB_HEAD_REF#PREFIX}
       - uses: MetaMask/action-publish-gh-pages@added-version
         with: 
           directory: public
+          destination:  ${{ steps.version.outputs.NEW_VERSION }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
            
