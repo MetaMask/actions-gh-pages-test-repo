@@ -16,7 +16,7 @@ _Add examples here_
 
 ## API
 
-_Add examples here_
+Many, many examples!
 
 ## Testing
 
