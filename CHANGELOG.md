@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.68]
+### Changed
+- foo
+
 ## [0.0.67]
 ### Changed
 - foo
@@ -340,7 +344,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update create-release-pr.yml
 - initial commit
 
-[Unreleased]: https://github.com/MetaMask/actions-gh-pages-test-repo/compare/v0.0.67...HEAD
+[Unreleased]: https://github.com/MetaMask/actions-gh-pages-test-repo/compare/v0.0.68...HEAD
+[0.0.68]: https://github.com/MetaMask/actions-gh-pages-test-repo/compare/v0.0.67...v0.0.68
 [0.0.67]: https://github.com/MetaMask/actions-gh-pages-test-repo/compare/v0.0.66...v0.0.67
 [0.0.66]: https://github.com/MetaMask/actions-gh-pages-test-repo/compare/v0.0.65...v0.0.66
 [0.0.65]: https://github.com/MetaMask/actions-gh-pages-test-repo/compare/v0.0.64...v0.0.65
