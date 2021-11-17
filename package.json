@@ -1,6 +1,6 @@
 {
   "name": "@metamask/module-template",
-  "version": "0.0.73",
+  "version": "0.0.74",
   "description": "The MetaMask Node module template.",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
