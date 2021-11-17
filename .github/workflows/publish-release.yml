@@ -28,7 +28,7 @@ jobs:
         id: version
         run: |
           PREFIX='release/'
-          echo ::set-output name=NEW_VERSION::${GITHUB_HEAD_REF#PREFIX}
+          echo ::set-output name=NEW_VERSION::${GITHUB_HEAD_REF#"$PREFIX"}
       - uses: MetaMask/action-publish-gh-pages@added-version
         with: 
           source-directory: public
